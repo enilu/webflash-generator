@@ -1,0 +1,36 @@
+<idea-plugin>
+  <id>cn.enilu.webflash.generator</id>
+  <name>webflash-generator</name>
+  <version>0.1</version>
+  <vendor email="eniluzt@qq.com" url="https://github.com/enilu/web-flash">enilu</vendor>
+
+  <description><![CDATA[
+      Code Generation Tool Based on web-flash(https://github.com/enilu/web-flash)<br>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Auto generate vue page,services,repositories,controllers with plugin UI,
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products  -->
+  <depends>com.intellij.modules.lang</depends>
+
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="GeneratorAction" class="cn.enilu.common.code.webflash.plugin.GeneratorAction" text="web-flash mvc">
+      <add-to-group group-id="GenerateGroup" anchor="first"/>
+    </action>
+  </actions>
+
+</idea-plugin>
