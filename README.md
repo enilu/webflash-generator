@@ -1,14 +1,15 @@
 # webflash-generator
 - 本项目基于Intellij IDEA的代码生成插件
-- 改插件需要配合[web-flash]()项目中的flash-generator使用。
+- 该插件需要配合[web-flash](http://enilu.gitee.io/web-flash/)项目中的flash-generator使用。
 - 该插件本质是只提供了代码生成的界面配置功能，真正的代码生成逻辑还在flash-generator中。
 
 ## 插件可使用范围
 - web-flash项目
 - guns-lite项目
 - 以及其他基于上述两个项目做二次开发的项目，例如：
-    - [linjiashop]():一个基于web-flash开发的商城系统
-    - [material-admin]():web-flash的单体版(springboot+jsp)
+    - [linjiashop](http://microapp.gitee.io/linjiashop/):一个基于web-flash开发的商城系统
+    - [material-admin](http://enilu.gitee.io/material-admin/):web-flash的单体版/material风格(springboot+jsp)
+    - [guns-lite](http://enilu.gitee.io/guns-lite/):web-flash的单体版(springboot+jsp)
 
 
 ## 使用方法
